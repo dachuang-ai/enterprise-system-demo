@@ -1,0 +1,6 @@
+{
+  "name": "企業智能管理系統 Demo",
+  "description": "由達創智能科技 AI (Dachuang AI Technology) 開發之企業級控制中心 Demo，完美演示進銷存流程、批號效期在庫、收付款對帳、以及 RBAC 多角色模組權限管控，展示低代碼自定義系統之優異整合效能與卓越 RWD 科技質感。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,145 +1,20 @@
-# Enterprise System Demo
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-## 專案名稱
+# Run and deploy your AI Studio app
 
-企業智能管理系統 Demo  
-Enterprise Management System Demo
+This contains everything you need to run your app locally.
 
----
+View your app in AI Studio: https://ai.studio/apps/51869908-16ce-493d-8af1-80f23da74bce
 
-## 專案定位
+## Run Locally
 
-這是一個由 **達創智能科技 AI** 規劃的企業管理系統 Demo。
+**Prerequisites:**  Node.js
 
-本 Demo 主要展示企業如何將分散在 Excel、LINE、人工表單與紙本流程中的資料，整合為可追蹤、可管理、可擴充的智能管理系統。
 
-此作品以進銷存、供應商、商品主檔、批號庫存、付款對帳與權限管理為核心，呈現達創在企業流程規劃、系統整合與數位轉型上的能力。
-
----
-
-## 展示重點
-
-- 企業管理系統架構規劃
-- 進貨 / 出貨流程設計
-- 商品主檔與供應商主檔管理
-- 批號庫存與效期追蹤
-- 收付款與對帳流程
-- 權限與角色管理
-- Dashboard 管理儀表板
-- Ragic / 低代碼系統建置概念
-- AI 與自動化流程延伸應用
-
----
-
-## 適合對象
-
-本 Demo 適合以下企業參考：
-
-- 中小企業
-- 進銷存管理需求者
-- 批號 / 效期管理產業
-- 商品銷售與庫存管理業者
-- 供應商與客戶資料分散的企業
-- 仍使用 Excel 或 LINE 管理流程的團隊
-- 需要建立內部管理系統的公司
-- 想導入 Ragic / 低代碼系統的企業
-
----
-
-## 系統模組
-
-本 Demo 規劃以下主要模組：
-
-### 1. Dashboard 總覽
-集中呈現訂單、庫存、付款狀態、待處理事項與異常提醒。
-
-### 2. 商品主檔
-管理商品名稱、規格、分類、單位、條碼、售價與庫存相關資料。
-
-### 3. 供應商主檔
-管理供應商名稱、聯絡資訊、付款條件、合作狀態與歷史紀錄。
-
-### 4. 進貨管理
-記錄進貨日期、供應商、商品、數量、批號、效期與入庫倉庫。
-
-### 5. 出貨管理
-記錄出貨對象、商品、數量、批號扣庫與出貨狀態。
-
-### 6. 批號庫存
-追蹤不同批號、效期、庫存數量與倉庫位置。
-
-### 7. 收付款與對帳
-管理應收、應付、付款狀態、部分付款、已結清與對帳流程。
-
-### 8. 權限管理
-依照管理者、會計、操作人員與查閱角色設定不同權限。
-
----
-
-## Demo 視覺風格
-
-本 Demo 採用「企業智能控制中心」視覺概念：
-
-- 深色背景
-- 藍色科技線條
-- 資料儀表板
-- 玻璃擬態卡片
-- 表格與流程節點
-- 控制台式資訊呈現
-- 專業、精準、結構化的系統感
-
----
-
-## 預計頁面區塊
-
-1. Hero：企業智能控制中心
-2. Dashboard 數據總覽
-3. 系統模組卡片
-4. 進貨到出貨流程圖
-5. 批號庫存追蹤示意
-6. 收付款與對帳展示
-7. 權限與角色管理
-8. 系統導入價值
-9. CTA：預約系統規劃
-
----
-
-## RWD 響應式規範
-
-本 Demo 特別重視桌面與手機版呈現：
-
-- 桌面版呈現控制中心與儀表板感
-- 手機版所有區塊單欄排列
-- 表格在手機版改為卡片式資訊
-- 中文標題避免一字一行
-- 卡片高度一致
-- 按鈕大小一致
-- 圖表與數據卡片不重疊
-- 保持良好的留白與閱讀性
-
----
-
-## 使用技術方向
-
-本 Demo 可使用以下技術完成：
-
-- HTML
-- CSS
-- JavaScript
-- React
-- Vite
-- Responsive Web Design
-- Dashboard UI
-- Ragic / Low-code System Concept
-- GitHub Pages / Cloudflare Pages / Vercel
-
-實際技術依最終產出版本調整。
-
----
-
-## 預計展示頁
-
-Demo 完成後將提供線上展示連結：
-
-```text
-https://dachuang-ai.github.io/enterprise-system-demo/
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
